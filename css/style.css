@@ -1,0 +1,83 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+.container{
+	width: 1200px;
+background: green;
+margin: 0 auto;
+}
+.menu{
+	background: #a2a226;
+overflow: hidden;
+}
+ul{
+	margin: 0;
+padding: 0;
+}
+li{
+	list-style: none;
+float: left;
+}
+a{
+	color: white;
+text-decoration: none;
+text-transform: capitalize;
+padding: 10px 20px;
+font-size: 20px;
+display: block;
+}
+a:hover{
+	background: green;
+	color:red;
+}
+.main-content{
+	width: 100%;
+height: 600px;
+}
+.left{
+	width: 70%;
+height: 600px;
+background: #a86363;
+float: left;
+}
+.one{
+	width: 70%;
+height: 200px;
+background: #e7e7b4;
+float: left;
+}
+.two{
+	width: 30%;
+height: 200px;
+background: #52ad52;
+float: left;
+}
+.three{
+	width: 33.33%;
+height: 200px;
+background: #769f76;
+float: left;
+}
+.right{
+	width: 30%;
+height: 600px;
+background: #694f1f;
+float: left;
+}
+.four{
+	width: 100%;
+height: 300px;
+background: #342863;
+float: left;
+}
+.copyright{
+	width: 100%;
+height: 20px;
+}
+img{
+	max-width: 100%;
+width: 100%;
+height: 100%;
+max-height: 100%;
+}
